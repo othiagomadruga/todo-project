@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:3001/api', // Endpoints do Node.js
+  baseURL: import.meta.env.VITE_API_URL || 'https://todo-project-7488.onrender.com', // Endpoints do Node.js
   headers: {
     'Content-Type': 'application/json',
   },
